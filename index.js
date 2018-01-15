@@ -15,3 +15,7 @@ console.log(numberA * numberB);
 console.log(numberA / numberB);
 
 //LEVEL 2
+let sentenceA = "rumah"
+console.log(numberA + sentenceA);
+
+//LEVEL 3
