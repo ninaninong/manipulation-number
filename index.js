@@ -18,8 +18,40 @@ console.log(numberA / numberB);
 let sentenceA = "rumah"
 console.log(numberA + sentenceA);
 
-//LEVEL 3
+console.log(Boolean(numberB > numberA))
+console.log(Boolean(numberA > numberB))
 
-document.getElementById("demo").InnerHTML
-document.getElementByClassname("container").InnerHTML
-document.querySelector(".container").InnerHTML
+let numberD = -5
+let numberE = 1000
+
+console.log(numberD + numberE);
+console.log(numberD - numberE);
+console.log(numberD * numberE);
+console.log(numberD / numberE);
+
+//LEVEL 3
+var numberF = [20, 30, 40];
+
+console.log("join...", numberF.join("*"));
+console.log("pop...", numberF.pop());
+console.log("push", numberF.push(100));
+console.log("after push...", numberF);
+console.log(numberF);
+
+
+var numberG = [10, 20, 30];
+var text = "";
+
+console.log("loop for...")
+for (let i = 0; i < numberG.length; i++) {
+  console.log(numberG[i]);
+}
+
+console.log("loop while...")
+console.log(i);
+console.log(numberG);
+let i = 0
+while (i < 3) {
+  console.log(numberG[i]);
+  i++
+}
