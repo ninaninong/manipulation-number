@@ -19,3 +19,7 @@ let sentenceA = "rumah"
 console.log(numberA + sentenceA);
 
 //LEVEL 3
+
+document.getElementById("demo").InnerHTML
+document.getElementByClassname("container").InnerHTML
+document.querySelector(".container").InnerHTML
