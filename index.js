@@ -46,11 +46,12 @@ console.log("loop for...")
 for (let i = 0; i < numberG.length; i++) {
   console.log(numberG[i]);
 }
+let i = 0;
 
 console.log("loop while...")
 console.log(i);
 console.log(numberG);
-let i = 0
+
 while (i < 3) {
   console.log(numberG[i]);
   i++
